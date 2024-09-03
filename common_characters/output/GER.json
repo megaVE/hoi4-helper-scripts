@@ -1,0 +1,555 @@
+[
+    {
+        "is_country_leader": true,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_adolf_hitler"
+    },
+    {
+        "is_country_leader": true,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_konrad_adenauer"
+    },
+    {
+        "is_country_leader": true,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_wilhelm_pieck"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_wilhelm_ii"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_wilhelm_iii"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_victoria"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_august_von_mackensen"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "field_marshal",
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_gerd_von_rundstedt"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "field_marshal",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_gunther_von_kluge"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_friedrich_paulus"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_erwin_rommel"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_erich_von_manstein"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_heinz_guderian"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_wilhelm_list"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_ewald_von_kleist"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_fedor_von_bock"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "field_marshal",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_walter_model"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_maximilian_von_weichs"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_wilhelm_ritter_von_leeb"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_georghans_reinhardt"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_walter_kruger"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_kurt_student"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_erwin_von_witzleben"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_hermann_hoth"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_johannes_blaskowitz"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_paul_hausser"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_friedrich_schulz"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_georg_von_kuchler"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_alfred_jodl"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_sepp_dietrich"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_hasso_von_manteuffel"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": "air_chief",
+        "name": "GER_albert_kesselring"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_gotthard_heinrici"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_ernsteberhard_hell"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "GER_felix_steiner"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": "navy_chief",
+        "name": "GER_karl_donitz"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": "navy_chief",
+        "name": "GER_erich_raeder"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": "theorist",
+        "name": "GER_alfred_saalwachter"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": null,
+        "name": "GER_hermann_boehm"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": null,
+        "name": "GER_wilhelm_marschall"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": true,
+        "advisor_role": "high_command",
+        "name": "GER_gunther_lutjens"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": "general",
+        "is_navy_leader": false,
+        "advisor_role": null,
+        "name": "CHI_alexander_von_falkenhausen"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_von_braun"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_heisenberg"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_wolfram_von_richthofen"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_walther_wever"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_ernst_udet"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "theorist",
+        "name": "GER_otto_ciliax"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "army_chief",
+        "name": "GER_ludwig_beck"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "army_chief",
+        "name": "GER_wilhelm_keitel"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "army_chief",
+        "name": "GER_franz_halder"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "army_chief",
+        "name": "GER_walther_von_brauchitsch"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "air_chief",
+        "name": "GER_hermann_goring"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "air_chief",
+        "name": "GER_ritter_von_greim"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_ferdinand_schorner"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_werner_von_fritsch"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_hugo_sperrle"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_erhard_milch"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_erich_bey"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_viktor_schutze"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "high_command",
+        "name": "GER_nikolaus_von_falkenhorst"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_fritz_todt"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_albert_speer"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_hjalmar_schacht"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_walther_funk"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_ernst_thalmann"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_kurt_schumacher"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_joseph_goebbels"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_rudolf_hess"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_heinrich_himmler"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_martin_bormann"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_joachim_von_ribbentrop"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_konstantin_von_neurath"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_hans_oster"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_alfred_hugenberg"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_carl_friedrich_goerdeler"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_julius_leber"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_theodor_heuss"
+    },
+    {
+        "is_country_leader": false,
+        "army_role": null,
+        "is_navy_leader": false,
+        "advisor_role": "political_advisor",
+        "name": "GER_wilhelm_canaris"
+    }
+]

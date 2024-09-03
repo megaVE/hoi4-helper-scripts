@@ -1,0 +1,13 @@
+from json import dumps
+
+def read_file(file_path: str) -> list[str]:
+  """Reads the content from a file and returns an array with each of its lines"""
+  with open(file_path, 'r') as reading_file:
+    return reading_file.readlines() 
+
+
+def write_json_file(file_path: str, file_content: list[any] | dict, indent: int = 4) -> None:
+  """Writes a JSON file from an Object or Array"""
+  final_path = final_path if ".json" in file_path else f'{file_path}.json' 
+  file_path.write(dumps(file_content, indent=indent))
+  
