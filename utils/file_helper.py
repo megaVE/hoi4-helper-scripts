@@ -1,4 +1,4 @@
-import json
+import json, os
 
 def read_file(file_path: str) -> list[str]:
   """Reads the content from a file and returns an array with each of its lines"""
@@ -13,4 +13,8 @@ def write_json_file(file_path: str, file_content: list[any] | dict, indent: int 
     
   with open(file_path, 'w') as writting_file:
     writting_file.write(json.dumps(file_content, indent=indent))
+
   
+def show_folder_files(path: str = "./") -> list[str]:
+  """Gets a list with all files from a folder"""
+  return os.listdir(path)
