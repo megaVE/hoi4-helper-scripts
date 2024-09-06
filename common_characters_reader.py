@@ -56,16 +56,16 @@ for line in file_lines:
     current_character_data = create_empty_character_dictionary()
 
   # Name
-  check_line_regex(line, current_character_data, 'name', NAME_REGEX, has_text_content=True)
+  check_line_regex(line, current_character_data, 'name', NAME_REGEX)
   # Leader
-  check_line_regex(line, current_character_data, 'is_country_leader', IS_LEADER_REGEX)
+  check_line_regex(line, current_character_data, 'is_country_leader', IS_LEADER_REGEX, ok_value=True)
   # Army
   check_line_regex(line, current_character_data, 'army_role', IS_ARMY_GENERAL_REGEX, ok_value="general")
   check_line_regex(line, current_character_data, 'army_role', IS_ARMY_FIELD_MARSHAL, ok_value="field_marshal")
   # Navy
-  check_line_regex(line, current_character_data, 'is_navy_leader', IS_ADMIRAL_REGEX)
+  check_line_regex(line, current_character_data, 'is_navy_leader', IS_ADMIRAL_REGEX, ok_value=True)
   # Advisor
-  check_line_regex(line, current_character_data, 'advisor_role', ADVISOR_ROLE_REGEX, has_text_content=True)
+  check_line_regex(line, current_character_data, 'advisor_role', ADVISOR_ROLE_REGEX)
   
   debug(current_character_data)
 
@@ -74,5 +74,5 @@ file_output_path = OUTPUT_PATH + file_name
 if len(character_list) == 0:
   print(f'No characters available for {file_name}')
   quit()
-
-write_json_file(file_output_path, character_list)
+else:
+  write_json_file(file_output_path, character_list)

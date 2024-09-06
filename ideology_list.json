@@ -1,0 +1,33 @@
+{
+    "democratic ": [
+        "types",
+        "conservatism",
+        "liberalism",
+        "socialism",
+        "populism"
+    ],
+    "communism ": [
+        "types",
+        "marxism",
+        "leninism",
+        "stalinism",
+        "anti_revisionism",
+        "anarchist_communism"
+    ],
+    "fascism ": [
+        "types",
+        "nazism",
+        "gen_nazism",
+        "fascism_ideology",
+        "falangism",
+        "rexism"
+    ],
+    "neutrality ": [
+        "types",
+        "despotism",
+        "oligarchism",
+        "anarchism",
+        "moderatism",
+        "centrism"
+    ]
+}
