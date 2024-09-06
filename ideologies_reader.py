@@ -2,7 +2,7 @@ import re, sys
 from utils.file_helper import read_file, write_json_file
 from utils.regex_helper import  create_prefix_regex, create_field_regex
 from utils.wrapper_score_helper import calculate_wrapper_score, Bracket
-from utils.debug_helper import debug as debug_helper
+from utils.debug_helper import debug
 
 # Commandline Params
 should_debug = False
@@ -30,10 +30,6 @@ def get_match_from_list(match_list: list):
     if match:
       return match
   return None
-
-
-def debug(string: str) -> None:
-  debug_helper(should_debug, string)
 
 
 def main(

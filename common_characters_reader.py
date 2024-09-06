@@ -4,15 +4,7 @@ from utils.regex_helper import check_line_regex, create_field_regex
 from utils.wrapper_score_helper import calculate_bracket_score, Bracket
 from utils.file_helper import read_file, write_json_file
 from utils.list_helper import push_unique_into_list
-from utils.debug_helper import debug as debug_helper
-
-# Commandline Params
-should_debug = False
-if len(sys.argv) > 1:
-  should_debug = sys.argv[1]
-  if re.match(should_debug, r'should_debug\s*=\sTrue.*'):
-    should_debug = True
-    print("Debug mode is ON.")
+from utils.debug_helper import debug
 
 # Regexes
 NAME_REGEX = create_field_regex('name', has_text_content=True)
@@ -30,9 +22,6 @@ def create_empty_character_dictionary():
     'is_navy_leader': False,
     'advisor_role': None
   }
-
-def debug(string: str) -> None:
-  debug_helper(should_debug, string)
 
 
 def main(file_path: str, output_path: str) -> None:
