@@ -1,7 +1,5 @@
-import re, sys
-
 from utils.regex_helper import check_line_regex, create_field_regex
-from utils.wrapper_score_helper import calculate_bracket_score, Bracket
+from utils.wrapper_score_helper import calculate_wrapper_score, Bracket
 from utils.file_helper import read_file, write_json_file
 from utils.list_helper import push_unique_into_list
 from utils.debug_helper import debug
@@ -25,6 +23,7 @@ def create_empty_character_dictionary():
 
 
 def main(file_path: str, output_path: str) -> None:
+  print(f'Process for "{file_path}" started.')
   file_lines = read_file(file_path)
   
   bracket_score = -1
@@ -33,7 +32,7 @@ def main(file_path: str, output_path: str) -> None:
   for line in file_lines:
     line = line.strip()
     debug(line)
-    bracket_score += calculate_bracket_score(line, Bracket.CURLY_BRACKETS)
+    bracket_score += calculate_wrapper_score(line, Bracket.CURLY_BRACKETS)
     
     if bracket_score == 0 and 'name' in current_character_data:
       push_unique_into_list(character_list, current_character_data)
@@ -56,4 +55,5 @@ def main(file_path: str, output_path: str) -> None:
   if len(character_list) == 0:
     print(f'No characters available for "{file_path}".')
   else:
+    print(f'Process complete for "{file_path}".')
     write_json_file(output_path, character_list)

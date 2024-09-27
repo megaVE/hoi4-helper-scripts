@@ -20,7 +20,7 @@ def check_line_regex(
   object_data: dict,
   attribute_name: str,
   attribute_regex: Pattern[str],
-  ok_value: any
+  ok_value: any = None
 ) -> None:
   """Checks if a string matches a regex and updates a dictionary according to it"""
   if object_data.get(attribute_name):
@@ -28,8 +28,11 @@ def check_line_regex(
   
   attribute_match = re.match(attribute_regex, line)
   if attribute_match:
+    if ok_value:
+      object_data[attribute_name] = ok_value
+      return
+        
     attribute_value = attribute_match.group(1)
     if isinstance(attribute_value, str):
       attribute_value = attribute_value.strip()
-    
-    object_data[attribute_name] = ok_value if ok_value is not None else attribute_value
+      object_data[attribute_name] = attribute_value

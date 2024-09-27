@@ -1,8 +1,8 @@
-import json, os
+import json, os, codecs
 
 def read_file(file_path: str) -> list[str]:
   """Reads the content from a file and returns an array with each of its lines"""
-  with open(file_path, 'r') as reading_file:
+  with codecs.open(file_path, 'r', encoding="utf-8", errors="ignore") as reading_file:
     return reading_file.readlines() 
 
 
